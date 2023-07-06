@@ -34,4 +34,4 @@ const login = (req, res) => {
 };
 
 const loginController = login;
-module.exports = loginController;
+module.exports = { loginController };
